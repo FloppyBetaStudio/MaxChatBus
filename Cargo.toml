@@ -1,0 +1,16 @@
+[package]
+name = "MaxChatBus"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+futures-util = "0.3.30"
+json = "0.12.4"
+lazy_static = "1.5.0"
+rand = "0.8.5"
+reqwest = "0.12.5"
+rustls-pemfile = "2.1.2"
+tokio = {version = "1.38.0", features = ["full"]}
+tokio-rustls = {version = "0.26.0", default-features = false, features = ["ring"]}
+tokio-tungstenite = "0.23.1"
+url = "2.5.2"
